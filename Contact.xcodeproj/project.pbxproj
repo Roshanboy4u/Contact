@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8223F6742433C41D00D6EF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6732433C41D00D6EF1B /* AppDelegate.swift */; };
 		8223F6762433C41D00D6EF1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6752433C41D00D6EF1B /* SceneDelegate.swift */; };
-		8223F6782433C41D00D6EF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6772433C41D00D6EF1B /* ViewController.swift */; };
+		8223F6782433C41D00D6EF1B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6772433C41D00D6EF1B /* ContactViewController.swift */; };
 		8223F67B2433C41E00D6EF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8223F6792433C41E00D6EF1B /* Main.storyboard */; };
 		8223F67E2433C41E00D6EF1B /* Contact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8223F67C2433C41E00D6EF1B /* Contact.xcdatamodeld */; };
 		8223F6802433C42200D6EF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8223F67F2433C42200D6EF1B /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		8223F6702433C41D00D6EF1B /* Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8223F6732433C41D00D6EF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8223F6752433C41D00D6EF1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8223F6772433C41D00D6EF1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8223F6772433C41D00D6EF1B /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		8223F67A2433C41E00D6EF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8223F67D2433C41E00D6EF1B /* Contact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact.xcdatamodel; sourceTree = "<group>"; };
 		8223F67F2433C42200D6EF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				8223F6732433C41D00D6EF1B /* AppDelegate.swift */,
 				8223F6752433C41D00D6EF1B /* SceneDelegate.swift */,
-				8223F6772433C41D00D6EF1B /* ViewController.swift */,
+				8223F6772433C41D00D6EF1B /* ContactViewController.swift */,
 				8223F6792433C41E00D6EF1B /* Main.storyboard */,
 				8223F67F2433C42200D6EF1B /* Assets.xcassets */,
 				8223F6812433C42200D6EF1B /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8223F67E2433C41E00D6EF1B /* Contact.xcdatamodeld in Sources */,
-				8223F6782433C41D00D6EF1B /* ViewController.swift in Sources */,
+				8223F6782433C41D00D6EF1B /* ContactViewController.swift in Sources */,
 				8223F6742433C41D00D6EF1B /* AppDelegate.swift in Sources */,
 				8223F6762433C41D00D6EF1B /* SceneDelegate.swift in Sources */,
 			);
