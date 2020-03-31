@@ -5,6 +5,8 @@ An individual's private or personal information by which another person, busines
 ## App Specification
 Language: Swift <br />
 Architecture Pattern: MVVM <br />
+Persister: Core Data.
+
 
 ## Project Support
 Xcode Version:- 11.4 <br />
