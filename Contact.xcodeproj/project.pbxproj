@@ -16,6 +16,9 @@
 		8223F6832433C42200D6EF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8223F6812433C42200D6EF1B /* LaunchScreen.storyboard */; };
 		8223F68E2433C42300D6EF1B /* ContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F68D2433C42300D6EF1B /* ContactTests.swift */; };
 		8223F6992433C42300D6EF1B /* ContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6982433C42300D6EF1B /* ContactUITests.swift */; };
+		8223F6AC2433D95B00D6EF1B /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AB2433D95B00D6EF1B /* ContactModel.swift */; };
+		8223F6AE2433D97000D6EF1B /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AD2433D97000D6EF1B /* ContactView.swift */; };
+		8223F6B02433D98200D6EF1B /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		8223F6942433C42300D6EF1B /* ContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8223F6982433C42300D6EF1B /* ContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUITests.swift; sourceTree = "<group>"; };
 		8223F69A2433C42300D6EF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8223F6AB2433D95B00D6EF1B /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		8223F6AD2433D97000D6EF1B /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,7 @@
 			children = (
 				8223F6732433C41D00D6EF1B /* AppDelegate.swift */,
 				8223F6752433C41D00D6EF1B /* SceneDelegate.swift */,
-				8223F6772433C41D00D6EF1B /* ContactViewController.swift */,
+				8223F6A62433D87C00D6EF1B /* Contact */,
 				8223F6792433C41E00D6EF1B /* Main.storyboard */,
 				8223F67F2433C42200D6EF1B /* Assets.xcassets */,
 				8223F6812433C42200D6EF1B /* LaunchScreen.storyboard */,
@@ -129,6 +135,49 @@
 				8223F69A2433C42300D6EF1B /* Info.plist */,
 			);
 			path = ContactUITests;
+			sourceTree = "<group>";
+		};
+		8223F6A62433D87C00D6EF1B /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				8223F6A82433D8A900D6EF1B /* ContactModel */,
+				8223F6AA2433D92700D6EF1B /* ContactView */,
+				8223F6A92433D8C400D6EF1B /* ContactViewModel */,
+				8223F6A72433D89900D6EF1B /* ContactViewController */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		8223F6A72433D89900D6EF1B /* ContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8223F6772433C41D00D6EF1B /* ContactViewController.swift */,
+			);
+			path = ContactViewController;
+			sourceTree = "<group>";
+		};
+		8223F6A82433D8A900D6EF1B /* ContactModel */ = {
+			isa = PBXGroup;
+			children = (
+				8223F6AB2433D95B00D6EF1B /* ContactModel.swift */,
+			);
+			path = ContactModel;
+			sourceTree = "<group>";
+		};
+		8223F6A92433D8C400D6EF1B /* ContactViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */,
+			);
+			path = ContactViewModel;
+			sourceTree = "<group>";
+		};
+		8223F6AA2433D92700D6EF1B /* ContactView */ = {
+			isa = PBXGroup;
+			children = (
+				8223F6AD2433D97000D6EF1B /* ContactView.swift */,
+			);
+			path = ContactView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8223F67E2433C41E00D6EF1B /* Contact.xcdatamodeld in Sources */,
+				8223F6AE2433D97000D6EF1B /* ContactView.swift in Sources */,
 				8223F6782433C41D00D6EF1B /* ContactViewController.swift in Sources */,
 				8223F6742433C41D00D6EF1B /* AppDelegate.swift in Sources */,
+				8223F6B02433D98200D6EF1B /* ContactViewModel.swift in Sources */,
+				8223F6AC2433D95B00D6EF1B /* ContactModel.swift in Sources */,
 				8223F6762433C41D00D6EF1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
