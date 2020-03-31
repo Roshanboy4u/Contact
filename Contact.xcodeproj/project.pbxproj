@@ -19,6 +19,7 @@
 		8223F6AC2433D95B00D6EF1B /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AB2433D95B00D6EF1B /* ContactModel.swift */; };
 		8223F6AE2433D97000D6EF1B /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AD2433D97000D6EF1B /* ContactView.swift */; };
 		8223F6B02433D98200D6EF1B /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */; };
+		8223F6B42433EB6100D6EF1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223F6B32433EB6100D6EF1B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8223F6AB2433D95B00D6EF1B /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		8223F6AD2433D97000D6EF1B /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		8223F6B32433EB6100D6EF1B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +112,8 @@
 				8223F6732433C41D00D6EF1B /* AppDelegate.swift */,
 				8223F6752433C41D00D6EF1B /* SceneDelegate.swift */,
 				8223F6A62433D87C00D6EF1B /* Contact */,
-				8223F6792433C41E00D6EF1B /* Main.storyboard */,
-				8223F67F2433C42200D6EF1B /* Assets.xcassets */,
-				8223F6812433C42200D6EF1B /* LaunchScreen.storyboard */,
-				8223F6842433C42200D6EF1B /* Info.plist */,
-				8223F67C2433C41E00D6EF1B /* Contact.xcdatamodeld */,
+				8223F6B12433EB3100D6EF1B /* Resources */,
+				8223F6B22433EB5000D6EF1B /* Services */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -178,6 +177,26 @@
 				8223F6AD2433D97000D6EF1B /* ContactView.swift */,
 			);
 			path = ContactView;
+			sourceTree = "<group>";
+		};
+		8223F6B12433EB3100D6EF1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8223F6B32433EB6100D6EF1B /* Default-568h@2x.png */,
+				8223F6792433C41E00D6EF1B /* Main.storyboard */,
+				8223F67F2433C42200D6EF1B /* Assets.xcassets */,
+				8223F6812433C42200D6EF1B /* LaunchScreen.storyboard */,
+				8223F6842433C42200D6EF1B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8223F6B22433EB5000D6EF1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8223F67C2433C41E00D6EF1B /* Contact.xcdatamodeld */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8223F6832433C42200D6EF1B /* LaunchScreen.storyboard in Resources */,
+				8223F6B42433EB6100D6EF1B /* Default-568h@2x.png in Resources */,
 				8223F6802433C42200D6EF1B /* Assets.xcassets in Resources */,
 				8223F67B2433C41E00D6EF1B /* Main.storyboard in Resources */,
 			);
@@ -493,6 +513,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NRJNYGFB33;
 				INFOPLIST_FILE = Contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,6 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NRJNYGFB33;
 				INFOPLIST_FILE = Contact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
