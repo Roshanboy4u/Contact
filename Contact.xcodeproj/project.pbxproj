@@ -20,6 +20,7 @@
 		8223F6AE2433D97000D6EF1B /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AD2433D97000D6EF1B /* ContactView.swift */; };
 		8223F6B02433D98200D6EF1B /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */; };
 		8223F6B42433EB6100D6EF1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223F6B32433EB6100D6EF1B /* Default-568h@2x.png */; };
+		82D03BED24351998006749BB /* DataValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D03BEC24351998006749BB /* DataValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8223F6AD2433D97000D6EF1B /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		8223F6AF2433D98200D6EF1B /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		8223F6B32433EB6100D6EF1B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82D03BEC24351998006749BB /* DataValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				8223F67F2433C42200D6EF1B /* Assets.xcassets */,
 				8223F6812433C42200D6EF1B /* LaunchScreen.storyboard */,
 				8223F6842433C42200D6EF1B /* Info.plist */,
+				82D03BEC24351998006749BB /* DataValue.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8223F67E2433C41E00D6EF1B /* Contact.xcdatamodeld in Sources */,
+				82D03BED24351998006749BB /* DataValue.swift in Sources */,
 				8223F6AE2433D97000D6EF1B /* ContactView.swift in Sources */,
 				8223F6782433C41D00D6EF1B /* ContactViewController.swift in Sources */,
 				8223F6742433C41D00D6EF1B /* AppDelegate.swift in Sources */,
